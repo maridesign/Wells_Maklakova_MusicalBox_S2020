@@ -69,7 +69,7 @@ nav a:first-of-type {
     width: 55px;
     float: right;
     position: relative;
-    top: -0.1em;
+    top: -0.8em;
 }
 
 input {
@@ -85,8 +85,8 @@ input {
 }
 
 .search {
+    width: 19px;
     color: #fff;
-    display: inline-block;
     line-height: 30px;
     position: relative;
     left: -30px;
@@ -97,15 +97,14 @@ input {
 /* ----- animals ----- */
 
 .animalsWrap {
-    max-width: 600px;
+    max-width: 800px;
     padding: 3.5em 0;
     margin: 0 auto;
 }
 
 .animalsInner {
-    margin-bottom: 2.5em;
+    margin-bottom: 4.5em;
 }
-
 
 .animalsInner:nth-child(2n + 1) {
     display: -ms-flexbox;
@@ -125,7 +124,7 @@ input {
     align-content: space-around;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .animalsInner:nth-child(2n) {
@@ -146,7 +145,7 @@ input {
     align-content: stretch;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .animalsInner img {
@@ -160,7 +159,8 @@ input {
     flex: 0 1 auto;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
-    align-self: auto;}
+    align-self: auto;
+}
 
  svg:hover {
     color: white;
