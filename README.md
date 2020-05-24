@@ -4,7 +4,7 @@
 My collection of Wild Creatures Icons
 
 #Installation
-All file available on GitHub
+does not require installation 
 
 #MIT License
 MIT License Copyright (c) 2020 Maria Maklakova
