@@ -1,4 +1,4 @@
-# maria_maklakova_marketSvg
+# Music Box Mixer by Maria Maklakova and Selena Wells
 
 # Description
 My collection of Wild Creatures Icons
