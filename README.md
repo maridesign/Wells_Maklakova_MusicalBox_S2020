@@ -1,7 +1,7 @@
 # Wells_Maklakova_Musical_Mixer
 
 #Description
-Musical Mixer
+will write it later
 
 #Installation
 does not require installation 
