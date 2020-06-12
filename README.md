@@ -1,7 +1,7 @@
 # Music Box Mixer by Maria Maklakova and Selena Wells
 
 # Description
-My collection of Wild Creatures Icons
+This site with take you to adventure in North American Wild Life. You can meet different forrest creatures and hear their sounds.
 
 # Installation
 does not require installation 
