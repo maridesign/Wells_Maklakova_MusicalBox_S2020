@@ -1,8 +1,7 @@
 # maria_maklakova_marketSvg
 
 #Description
-My collection of Wild Creatures Icons
-
+Musical Mixer
 #Installation
 does not require installation 
 
