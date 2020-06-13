@@ -1,12 +1,12 @@
 # Music Box Mixer by Maria Maklakova and Selena Wells
 
-# Description
-This site with take you to adventure in North American Wild Life. You can meet different forrest creatures and hear their sounds.
+## Description
+This site with take you to adventure in North American Wild Life. You can meet different forest creatures and hear their sounds.
 
-# Installation
+## Installation
 does not require installation 
 
-# MIT License
+## MIT License
 MIT License Copyright (c) 2020 Maria Maklakova
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
