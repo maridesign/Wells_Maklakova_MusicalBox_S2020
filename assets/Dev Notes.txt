@@ -1,0 +1,23 @@
+﻿Dev Notes:
+
+
+Music Mixer Feature Breakdown
+* User drags the animal icon from the icon dock to the forest, drops it in one of the six spots.
+* Drop the icon in a spot and the icon starts to play its specific sound
+* Animation will take place of the creature making the sound
+* Docked icons will not make sound and will not be animated
+* Reset button needs to be added
+* If a new icon is dropped on top of an icon that is playing music they swap.
+
+
+Needed to implement these features
+* Add draggable attribute to the icons
+* Js handles the drag functionality, set id of icon to dragged -> use set and get methods on drag event
+* Reparent on a drop -> retrieve the id of the icon we are dragging and then reparent it to the spot where it was dropped (the active drop zones)
+* On drop we have to set the sound and animation to be active
+* Each icon will have an index
+
+
+Things we have to learn to create this:
+* How to change an svg state to become animated. 
+* How to swap out an icon if another icon is put on that drop zone.
