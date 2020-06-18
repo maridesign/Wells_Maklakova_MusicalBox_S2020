@@ -19,22 +19,20 @@ body {
 }
 
 a {
-    color: #B25538;
+    color:  #e6ffcc;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #E0A810;
+    color:  #73e600;
     transition: all ease 2s;
 }
-
-
 
 /* ----- grid ----- */
 
 .container {
-    max-width: 1020px;
+    max-width: 1200px;
     min-width: 360px;
     width: 100%;
     margin: 0 auto;
@@ -108,11 +106,6 @@ input {
     margin: 0 auto;
 }
 
-
-.animalsInner {
-    margin-bottom: 4.5em;
-}
-
 .animalsInner:nth-child(2n + 1) {
     margin-bottom: 10em;
     position: relative;
@@ -132,7 +125,7 @@ input {
 
 .animalsInner:nth-child(2n) {
     position: relative;
-    top: -10em;
+    top: -em;
 
     display: flex;
     flex-direction: row;
@@ -142,7 +135,7 @@ input {
     align-items: flex-start;
 }
 
-#cardina {
+#cardinal {
     position: relative;
     top: -30px;
 }
@@ -164,7 +157,7 @@ input {
 
 #bear {
     position: relative;
-    top: 55px;
+    top:55px;
 }
 
 #bunny {
@@ -180,7 +173,7 @@ input {
 }
 
 .description {
-    background-color: #B25538;
+    background-color:  #39004d;
     color: #fff;
     padding: 1em 0;
     margin: 3em 0 30em 0;
