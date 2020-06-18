@@ -8,29 +8,31 @@
 html, body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
-    background-image: url("../images/Background.jpg");
+}
+
+body {
+    background-image: url("../images/forrest3.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;  
+    /* background-attachment: fixed; */
     background-size: cover;
+    background-position: center;
 }
 
 a {
-    color: #B25538;
+    color:  #e6ffcc;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #E0A810;
+    color:  #73e600;
     transition: all ease 2s;
 }
-
-
 
 /* ----- grid ----- */
 
 .container {
-    max-width: 1020px;
+    max-width: 1200px;
     min-width: 360px;
     width: 100%;
     margin: 0 auto;
@@ -100,69 +102,67 @@ input {
 /* ----- animals ----- */
 
 .animalsWrap {
-    max-width: 800px;
-    padding: 3.5em 0;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-.animalsInner {
-    margin-bottom: 4.5em;
+.animalsInner:nth-child(2n + 1) {
+    margin-bottom: 10em;
+    position: relative;
+    top: -24em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: flex-start;
 }
 
-.animalsInner:nth-child(2n + 1) {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-align-content: space-around;
-    -ms-flex-line-pack: distribute;
-    align-content: space-around;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-end;
+.animalsInner:nth-child(2n + 1) svg {
+    margin: 0 2em;
 }
 
 .animalsInner:nth-child(2n) {
-    display: -ms-flexbox;
-    display: -webkit-flex;
+    position: relative;
+    top: -em;
+
     display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-align-content: stretch;
-    -ms-flex-line-pack: stretch;
     align-content: stretch;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
-.animalsInner img {
-    width: 71px;
+#cardinal {
+    position: relative;
+    top: -30px;
+}
 
-    -webkit-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-    -webkit-flex: 0 1 auto;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    align-self: auto;
+#woody {
+    position: relative;
+    top: 15px;
+}
+
+#racoon {
+    position: relative;
+    top: -5px;
+}
+
+#wolf {
+    position: relative;
+    top: 55px;
+}
+
+#bear {
+    position: relative;
+    top:55px;
+}
+
+#bunny {
+    position: relative;
+    top: 25px;
 }
 
  svg:hover {
@@ -172,12 +172,11 @@ input {
     transition: all ease 0.5s;
 }
 
-
-
 .description {
-    background-color: #B25538;
+    background-color:  #39004d;
     color: #fff;
     padding: 1em 0;
+    margin: 3em 0 30em 0;
 }
 
 h2 {
@@ -187,7 +186,7 @@ h2 {
 /* ----- footer ----- */
 
 footer {
-    margin-top: 3em;
+    margin-top: 1em;
 }
 
 .leftCol, .rightCol {
