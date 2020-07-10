@@ -107,7 +107,7 @@ input {
 }
 
 .animalsInner:nth-child(2n + 1) {
-    margin-bottom: 10em;
+    margin-bottom: 22em;
     position: relative;
     top: -24em;
 
@@ -125,7 +125,7 @@ input {
 
 .animalsInner:nth-child(2n) {
     position: relative;
-    top: -em;
+    top: -5em;
 
     display: flex;
     flex-direction: row;
@@ -223,4 +223,64 @@ a + p {
     font-size: 0.75em;
     margin-top: 1.5em;
 }
- 
+
+/* ===== svg ===== */
+
+.wrapSvg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: center;
+}
+
+#logo {
+    flex: 1;
+    max-height: 150px;
+    position: relative;
+    right: -18.5%;
+
+}
+
+.path {
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    animation: dash 5s linear forwards;
+}
+
+.letter {
+    animation: letter 5s linear forwards;
+}
+
+#_1heart, #_2heart, #_3heart {animation: fadeheart 0.8s forwards;opacity: 0;}
+
+#_1heart { animation-delay: 3s; }
+#_2heart { animation-delay: 3.5s; }
+#_3heart { animation-delay: 4s; }
+
+@keyframes fadeheart {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+  
+@keyframes dash {
+    to {
+        stroke-dashoffset: 1000;
+    }
+}
+
+@keyframes letter {
+    from {
+        fill: #f49ac1;
+    }
+
+    to {
+        fill: #b99ac8;
+    }
+}
