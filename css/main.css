@@ -5,9 +5,8 @@
 }
 
 .dropZoneArea {
-    background-color: #39004d;
     width: 70%;
-    height: 300px;
+    height: 20em;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -15,6 +14,10 @@
 
 .drop-zone {
     flex: 1;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px;
+    border: 2px solid purple;
 }
 
 .hidden {
@@ -125,7 +128,9 @@ input {
 
 .animalsWrap {
     max-width: 1200px;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
