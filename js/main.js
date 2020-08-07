@@ -1,7 +1,8 @@
 (() => {
     // set up the puzzle pieces and boards
     const animals = document.querySelectorAll('.animal'),
-        dropZones = document.querySelectorAll('.drop-zone');
+        dropZones = document.querySelectorAll('.drop-zone'),
+        animalsWrap = document.querySelector('.animalsWrap');
 
 
     function allowDrag(event) {
@@ -23,13 +24,28 @@
         let droppedImage = event.dataTransfer.getData('draggedImg');
         //if the length of the number of children is 0 append child 
         if (event.currentTarget.children.length !== 0) {
-            return;
+            //setup
+            let currentAnimal = event.currentTarget.children[0];
+            let currentZone = event.currentTarget;
+
+            //reset current animals audio
+            let audio = document.querySelector(`audio[data-sound="${currentAnimal.id}"]`)
+
+            audio.pause();
+            audio.currentTime = 0;
+
+            //remove current animal
+            currentAnimal = currentZone.removeChild(currentAnimal);
+
+            //add current animal to original home
+            animalsWrap.appendChild(currentAnimal);
+            //continue
+
+
         }
 
 
-        event.target.appendChild(document.querySelector(`#${droppedImage}`));
-
-        console.log(event.target)
+        event.currentTarget.appendChild(document.querySelector(`#${droppedImage}`));
 
         let audio = document.querySelector(`audio[data-sound="${droppedImage}"]`)
 
@@ -38,11 +54,6 @@
         audio.currentTime = 0;
         audio.loop = true;
         audio.play();
-
-
-
-
-
 
     }
 
