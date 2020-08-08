@@ -4,7 +4,7 @@
 This site with take you to adventure in North American Wild Life. You can meet different forest creatures and hear their sounds.
 
 ## Installation
-does not require installation 
+Download sound files into the assets folder for the project to work :https://drive.google.com/drive/folders/10T5yvOoGTrZHb0JwbCg7qqwBQBrUqOQA?usp=sharing
 
 ## MIT License
 MIT License Copyright (c) 2020 Maria Maklakova
